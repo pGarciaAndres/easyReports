@@ -1,0 +1,189 @@
+/*
+	Hoja de estilos 2.css
+*/
+*{ margin: 0; padding: 0; }*
+body{ 
+	background-color: #F3F4F6;
+	color: #454545;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+h1 {
+	font-size: 3.6em;
+	font-weight: normal;
+	float: left; margin: 0;
+	}
+h2 {
+	font-family: 'Kite One', sans-serif; font-size: 2.6em; color: #333333;
+	font-weight: normal;
+	margin: 0 0 .8em;
+	}
+h3 {
+	font-family: 'Kite One', sans-serif;
+	font-size: 1.7em;
+	font-weight: normal;
+	margin: .8em 0 0;
+	}
+p {
+	margin: 0;
+	line-height: 1.8em;
+	}
+em {
+	border-bottom: 1px dotted #fff;
+	cursor: pointer;
+	}
+#general {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: 980px;
+	}
+#header {
+	margin: 20px auto 0 auto;
+	padding: 0;
+	position: relative;
+	width: 944px;
+	height: 100px;
+	z-index: 100;
+	}
+.logo_empresa {
+	float: right;
+	margin-right: 10px;
+	height: 100px;
+	width:250px;
+	}
+.titulo {
+	margin: 30px 0px 0px 10px;
+	width: 50%;
+	color: #555555;
+	font-family: Helvetica,sans-serif;
+	line-height: 1em;
+	padding-bottom: 15px;
+	}
+#contenido {
+	margin: 0 auto 50px auto;
+	padding: 0;
+	position: relative;
+	width: 944px;
+	background-color: #FFF;
+	z-index: 1000;
+	border: 1px solid #e0e0e0;
+	}
+#box {
+	margin: 0 auto 0 auto;
+	padding-top: 50px;
+	position: relative;
+	width: 90%;
+	}
+#chart_empleados {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	width: 55%;
+	}
+#chart_sexos {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	width: 45%;
+	}
+#chart_ventas {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	width: 50%;
+	}
+#chart_ganancias {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	width: 50%;
+	}
+#chart_financiera {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	width: 55%;
+	}
+#chart_integrantes {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	width: 50%;
+	}
+#chart_sueldos {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	width: 50%;
+	}
+#tabla_material {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	width: 50%;
+	}
+#chart_material {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	width: 50%;
+	}
+#chart_mantenimiento {
+	margin-top: -70px;
+}
+#clear {
+	clear: both;
+	display: block;
+	font-size: 1px;
+	height: 0;
+	}
+#pie {
+	height: 40px;
+	width: 100%;
+	}
+.logo_easyReports {
+	float: right;
+	margin-top: 70px;
+	background-position: bottom;
+	}
+.volver {
+	float: left;
+	margin: 70px 0 0 20px;
+	background: url(../Imagenes/logo/volver.png) no-repeat;
+	height: 40px;
+	width:40px;
+	opacity: 0.4;
+	}
+.volver:hover {
+	opacity: 1;
+	}
+#oscuridad {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	opacity: 0.8;
+	background-color: #000;
+	position: fixed;
+	z-index: 1040;
+	}
+#cargando {
+	z-index: 1050;
+	width: 250px;
+	margin: 15% auto 0 auto;
+	display: block;
+	}
